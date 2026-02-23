@@ -28,8 +28,6 @@ Contiene métricas del negocio:
 - Monto del crédito.
 - Plazo.
 - Tasa de interés.
-- Indicadores derivados de pagos.
-Aunque los pagos son eventos transaccionales, en este modelo funcionan como métricas de desempeño del crédito y no como el hecho principal.
 ### Tablas de Dimensión:
 Se implementaron las siguientes dimensiones:
 1. **dim_date**: Permite análisis temporal y cohortes de originación
